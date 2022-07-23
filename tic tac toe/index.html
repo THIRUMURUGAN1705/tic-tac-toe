@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <!--Starting Page-->
+        <div id="startingPage">
+            <h1>Tic Tac toe</h1>
+            <div class="line"></div>
+        <h3>Which you want to be?</h3>
+        <div class="button">
+            <button class="choose" id="playerX">player( X )</button>
+            <button class="choose" id="playerO">player( O )</button>
+        </div>
+        </div>
+
+        <!--Main Page-->
+        <div class="mainPage">
+            <div class="headerBtns">
+                <button>X Turn</button>
+                <button class="oturn">O Turn</button>
+                <div class="showChange"></div>
+            </div>
+            <!--Game Board-->
+        <div class="gameBoard">
+            <button class="box"></i></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        </div>
+
+        
+
+        <!--Winner Page-->
+        <div class="winningPage">
+            <h2 class="win"><span class="winner"></span> Win The Game!</h2>
+            <div class="button">
+                <button class="playAgain">Play Again</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
